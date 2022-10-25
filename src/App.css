@@ -1,6 +1,40 @@
 .App {
-  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: rgba(128, 128, 128, 0.161);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
+
+.releases {
+  background-color:  #61dafb;
+  color: black;
+  border: 4px black;
+  height: 70px;
+  width: 710px;
+  font-size: 20px;
+  color: navy;
+  text-align: center;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -26,7 +60,10 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +73,4 @@
     transform: rotate(360deg);
   }
 }
+
